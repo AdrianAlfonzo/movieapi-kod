@@ -16,7 +16,7 @@ searchBtn.addEventListener('click', () => {
     }
 });
 
-// También permitir buscar presionando la tecla "Enter"
+// Buscar dando Enter
 movieInput.addEventListener('keypress', (e) => {
     if (e.key === 'Enter') {
         searchBtn.click();
